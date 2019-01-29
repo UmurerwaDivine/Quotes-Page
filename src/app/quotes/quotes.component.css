@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+.container{
+    background-image:url('src/assets/pexels-photo-414586.jpeg');background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Pacifico;
+    font-size: 18px;
+}

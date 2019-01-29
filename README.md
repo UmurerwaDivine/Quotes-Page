@@ -1,27 +1,36 @@
 # QuotesPage
 
+The quote project is where you can add your own quote which is inspiration or movational and can enspire others.
+
+## Technology Used
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Author 
 
-## Build
+Umurerwa Divine
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### BDD
 
-## Running unit tests
+In this quote app you are allowed to add your own quote and delete
+the one you dont like .
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+the quote you add can be voted by the users if they like it or not.
 
-## Running end-to-end tests
+### Contact Information
+```
+divinekagame@gmail.com
+```
+### Link to live site on Github
+```
+https://umurerwadivine.github.io/Quotes-Page/
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Copyright and License
+```
+MIT copyright 2019

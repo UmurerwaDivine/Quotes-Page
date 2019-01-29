@@ -1,0 +1,17 @@
+
+<div class="container">
+  <h1> <i class="fa fa-quote-left"></i>  Motivational Quotes <i class="fa fa-quote-right"></i></h1>
+  <div *ngFor='let quote of quotes;let i = index'>
+    <p>
+      {{quote.name}}</p>
+      <button  (click)='toggleDetails(i)' class="btn btn-success">More Details</button>
+      
+      <!--<app-quote-details *ngIf="quote.showAuthor" [quote]='quote'></app-quote-details>-->
+      <app-quote-details *ngIf="quote.showAuthor" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+    
+    </div>  
+  </div>
+ 
+    
+
+<app-quote-form></app-quote-form>
