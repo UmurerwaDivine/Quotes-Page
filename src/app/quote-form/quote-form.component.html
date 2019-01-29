@@ -1,19 +1,15 @@
-<div  #quotelForm='ngForm'>
+<div  >
 <h3>Add Quote</h3>
-<form>
+<form (ngSubmit)='submitQuotel()' #QuoteForm='ngForm'>
 <div class="form-group">
   <label for="name">Author</label>
-  <input type="text"  class="form-control" required>
-  
-  
-      
-      
+  <input type="text"  class="form-control" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
   
 </div>
-<!-- Description Input -->
+
 <div class="form-group">
 <label for="description">Write Your Quote:</label>
-<textarea class="form-control" required></textarea>
+<textarea class="form-control" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
 
 
 </div>

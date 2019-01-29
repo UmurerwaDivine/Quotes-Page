@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import{ Quote} from '../quote';
 
 
@@ -18,6 +18,15 @@ export class QuotesComponent implements OnInit {
  
  
   ]
+  
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id=quoteLength+1;
+    
+    this.quotes.push(quote)
+
+}
+
   toggleDetails(index){
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
   }
